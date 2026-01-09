@@ -10,6 +10,7 @@ import Cards from "./pages/Cards";
 import Shelter from "./pages/Shelter";
 import Shop from "./pages/Shop";
 import Report from "./pages/Report";
+import GameSimplified from "./pages/GameSimplified";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/shelter" component={Shelter} />
       <Route path="/shop" component={Shop} />
       <Route path="/report" component={Report} />
+      <Route path="/game-simple" component={GameSimplified} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
